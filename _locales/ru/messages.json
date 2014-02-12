@@ -1,0 +1,9 @@
+{
+   "extDesc": {
+      "message": "Something description"
+   },
+   "extName": {
+       "description": "Extension name",
+       "message": "AOL"
+   }
+}
