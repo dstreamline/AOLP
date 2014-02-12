@@ -1,9 +1,9 @@
 {
-   "app": {
-      "launch": {
-         "local_path": "index.html"
-      }
-   },
+    "browser_action": {
+        "default_title": "",
+        "default_icon": "icons/icon16.png",
+        "default_popup": "index.html"
+    },
    "content_security_policy": "script-src 'self'; object-src 'self' https://www.youtube.com/v/",
    "default_locale": "en",
    "description": "__MSG_extDesc__",
