@@ -1,0 +1,23 @@
+{
+   "app": {
+      "launch": {
+         "local_path": "index.html"
+      }
+   },
+   "content_security_policy": "script-src 'self'; object-src 'self' https://www.youtube.com/v/",
+   "default_locale": "en",
+   "description": "__MSG_extDesc__",
+   "icons": {
+      "128": "icons/icon128.png",
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
+      "48": "icons/icon48.png",
+      "64": "icons/icon64.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDAedp7EOFNPu7a+SHtB1WDargeMIWmsap9H4VOnngh0O2S2bJ5/2iSPU2QL1fd2J1X6c05DZCbfDlpm42ahGbCrnyH/CYlnGVwgM5M1nbWJ1SWay/6Z6BpdCqkeoAIClcyGqTETc5bTmZL1TbaZypUdIj/NJrtLpEZeKQTee64CwIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_extName__",
+   "permissions": [ "https://*.vk.com/*", "http://*.vk.com/*", "http://*.last.fm/*", "http://*.audioscrobbler.com/*", "http://api.soundcloud.com/*", "http://*.nigma.ru/*", "https://ajax.googleapis.com/*", "http://gdata.youtube.com/*", "http://*.isohunt.com/*", "http://*.seesu.me/*", "http://api.songkick.com/*", "http://ex.fm/api/*", "http://developer.echonest.com/api/*", "http://hypem.com/*", "http://api.discogs.com/*" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.1"
+}
